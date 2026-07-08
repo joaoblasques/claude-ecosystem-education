@@ -24,12 +24,17 @@ This program eats its own dogfood: it's operated by the same loops it teaches.
 The curriculum synthesizes, credits, and links — it does not reproduce:
 
 - **Official:** [Anthropic docs](https://docs.claude.com), [Claude support
-  docs](https://support.claude.com), Anthropic release notes and courses.
+  docs](https://support.claude.com), [Anthropic Academy](https://www.anthropic.com/learn)
+  (free certificated courses — used as this program's milestones), and the official
+  GitHub repos (skills, claude-cookbooks, courses, claude-quickstarts).
 - **Community:** the [AI in public](https://www.aiinpublic.com) newsletter by Hamza
   Khalid — the "learn Claude in 7 days" roadmap that seeded Level 1 — plus the other
   sources credited on each page.
 - Paywalled material is never copied; posts are described and linked so the authors
   keep what's theirs.
+- **Accountability mechanics:** adapted from
+  [#100DaysOfCode](https://github.com/kallaway/100-days-of-code) by Alexander Kallaway —
+  the daily public post, the fork-this-repo log, and the never-miss-twice rule.
 
 ## Independence & license
 

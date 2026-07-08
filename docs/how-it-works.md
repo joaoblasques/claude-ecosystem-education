@@ -37,7 +37,9 @@ spine, not a cage.
 ## Pace and honesty rules
 
 - The "days" are working sessions (1–2 h), not calendar days. Life happens; the log
-  just tells the truth about it.
+  just tells the truth about it. One borrowed rule that works (from
+  [#100DaysOfCode](https://github.com/kallaway/100-days-of-code), whose mechanics
+  inspired this program's log): **never miss two days in a row.**
 - A day isn't done until something shipped. If nothing shipped, the log entry says so
   and why — that entry still counts. Honesty over streaks.
 - Don't log what you didn't do. The whole value of the record is that it's real.
@@ -46,4 +48,7 @@ spine, not a cage.
 
 Level 1 works on a paid Claude plan (some features — Chrome extension, higher limits —
 need one; noted per day). Level 2–3 assume Claude Code on a Pro/Max plan or API access.
+Know your budget: claude.ai, Claude Code, Desktop, and Cowork all draw from
+[one shared usage pool](https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work)
+(5-hour rolling window + weekly cap); only API use is billed separately.
 The program itself is free and always will be.
