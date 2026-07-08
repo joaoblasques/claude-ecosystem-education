@@ -4,7 +4,7 @@ A free, public, learn-in-public program to become productive across the whole Cl
 ecosystem — from the consumer apps (Projects, Artifacts, Skills, Connectors, Chrome, Excel)
 to the agentic harness (Claude Code, CLAUDE.md, hooks, subagents, MCP, Agent SDK).
 
-**Site:** https://claudeecosystemeducation.com (MkDocs Material, deployed via GitHub Pages)
+**Site:** https://joaoblasques.github.io/claude-ecosystem-education/ (MkDocs Material, GitHub Pages — deliberately no custom domain: the repo is the product)
 
 ## The idea
 
