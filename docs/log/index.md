@@ -31,4 +31,4 @@ One line.
 
 ## Entries
 
-- [2026-07-08 — Day 0: the program builds itself](2026-07-08.md)
+- [2026-07-08 — Day 0: the program builds itself · Day 1: meet the ecosystem](2026-07-08.md)
