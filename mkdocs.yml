@@ -1,0 +1,87 @@
+site_name: Claude Ecosystem Education
+site_description: A free learn-in-public program to become productive across the whole Claude ecosystem.
+site_url: https://claudeecosystemeducation.com/
+# repo_url: set after the GitHub repo is created
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - toc.follow
+  icon:
+    logo: material/school
+
+nav:
+  - Home: index.md
+  - How it works: how-it-works.md
+  - Curriculum:
+      - Overview: curriculum/index.md
+      - "Level 1 — The Claude Apps":
+          - Overview: curriculum/level-1/index.md
+          - Day 1 — Meet the ecosystem: curriculum/level-1/day-1.md
+          - Day 2 — Artifacts: curriculum/level-1/day-2.md
+          - Day 3 — Skills: curriculum/level-1/day-3.md
+          - Day 4 — Connectors & MCP: curriculum/level-1/day-4.md
+          - Day 5 — Agentic Claude: curriculum/level-1/day-5.md
+          - Day 6 — Thinking & learning: curriculum/level-1/day-6.md
+          - Day 7 — Loops capstone: curriculum/level-1/day-7.md
+      - "Level 2 — Claude Code & the Harness":
+          - Overview: curriculum/level-2/index.md
+          - Module 1 — The agent loop: curriculum/level-2/module-1.md
+          - Module 2 — Core workflow: curriculum/level-2/module-2.md
+          - Module 3 — Context economy: curriculum/level-2/module-3.md
+          - Module 4 — CLAUDE.md design: curriculum/level-2/module-4.md
+          - Module 5 — Agent Skills: curriculum/level-2/module-5.md
+          - Module 6 — MCP & connectors: curriculum/level-2/module-6.md
+          - Module 7 — Subagents & Agent SDK: curriculum/level-2/module-7.md
+          - Module 8 — Extending the loop: curriculum/level-2/module-8.md
+      - "Level 3 — Builder": curriculum/level-3/index.md
+  - Learning Log:
+      - About the log: log/index.md
+      - 2026-07-08 — Day 0: log/2026-07-08.md
+  - Participants: participants.md
+  - Colophon: colophon.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+copyright: >
+  An independent community education project. Not affiliated with, endorsed by,
+  or sponsored by Anthropic. "Claude" is a trademark of Anthropic, PBC.
