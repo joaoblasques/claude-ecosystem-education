@@ -21,6 +21,22 @@ An Artifact is a self-contained piece of content Claude renders live beside the 
 
 As of mid-2026, you can start from the chat (just ask) or from the dedicated Artifacts area in the claude.ai sidebar.
 
+!!! note "Two homes for an artifact: a live preview vs. a real file"
+    The same word covers two different things, and which one you get depends on the
+    surface, not on where you clicked:
+
+    - **In-chat artifact** — a live preview (React/HTML/SVG…) that lives *inside* the
+      message thread. Ephemeral, tied to that conversation.
+    - **Cowork artifact** — when a build runs through **Cowork** (which can launch from
+      inside a Project chat), Claude opens a **working folder** and writes an actual
+      **file** to disk (e.g. `job-tracker.html`). You can see the folder and the file,
+      keep it, and version it. The URL gives it away: a Cowork artifact's link contains
+      `cowork-artifact`.
+
+    Both are "artifacts." A Cowork-launched build stays associated with the Project chat
+    it came from *and* produces a durable file — so "I made it in my Project but it's a
+    file in a folder" is expected, not a bug.
+
 ### Specificity beats everything
 
 "Make a calculator" produces something generic. A prompt that works names four things:
