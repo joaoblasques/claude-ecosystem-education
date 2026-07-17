@@ -3,7 +3,8 @@
 Public learn-in-public education site (MkDocs Material → GitHub Pages, domain
 claudeecosystemeducation.com). Jonas is Learner #0; his daily log seeds the content.
 Vault brain (private): `~/Dev/second-brain/01_Projects/Claude-Ecosystem-Education/`
-— read-only from here; never commit the vault from this session.
+— writable under the Concurrent-Writer Protocol (2026-07-17, global CLAUDE.md): pull-rebase first,
+pathspec commits, push promptly, never two sessions in one file. Handoffs optional.
 
 ## Rules
 - **Original prose only.** Credit + link community sources (esp. the "AI in public"
