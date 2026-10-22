@@ -1,5 +1,7 @@
 # Claude Ecosystem Education — repo context
 
+status: active
+
 Public learn-in-public education site (MkDocs Material → GitHub Pages, domain
 claudeecosystemeducation.com). Jonas is Learner #0; his daily log seeds the content.
 Vault brain (private): `~/Dev/AIOS/20_Areas/Side Projects/Claude-Ecosystem-Education/`
